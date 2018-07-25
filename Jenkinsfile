@@ -24,8 +24,8 @@ node {
          * docker build on the command line */
 
         echo 'Building'
+        sh 'pwd'
         sh 'ls -al'
-        sh 'which terraform'
     }
 
 //    stage('Test image') {
