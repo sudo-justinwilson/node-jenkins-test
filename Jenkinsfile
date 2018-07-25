@@ -25,6 +25,7 @@ node {
 
         echo 'Building'
         sh 'ls -al'
+        sh 'which terraform'
     }
 
 //    stage('Test image') {
