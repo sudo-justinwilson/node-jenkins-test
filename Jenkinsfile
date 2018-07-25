@@ -27,6 +27,7 @@ node {
         sh 'pwd'
         sh 'ls -al'
         sh 'cat main.js'
+        sh '/bin/bash ./test.sh
     }
 
 //    stage('Test image') {
