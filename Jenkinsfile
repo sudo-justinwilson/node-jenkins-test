@@ -26,6 +26,7 @@ node {
         echo 'Building'
         sh 'pwd'
         sh 'ls -al'
+        sh 'cat main.js'
     }
 
 //    stage('Test image') {
